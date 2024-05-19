@@ -1,0 +1,41 @@
+//========== User's Code Starts Here ==========
+#include<iostream>
+using namespace std;
+
+void print_pattern();
+/*Function to print the pattern */
+
+void print_pattern()
+{
+        /* Function to print the pattern */
+        
+    for (int i = 1; i <= 5; i++) {
+
+        for (int j = 1; j <= i; j++) {
+            cout << "*";
+        }
+
+        for (int k = 1; k <= 5 - i; k++) {
+            cout << " ";
+        }
+
+        for (int l = 1; l <= i; l++) {
+            cout << "*";
+        }
+        cout << endl; 
+    }
+
+ 
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    print_pattern();
+    return 0;
+}
+//========== User's Code Ends Here ==========
+
