@@ -20,6 +20,22 @@ void print_pattern()
 
 }
 
+
+void print_pattern()
+{
+    int i = 5;
+    while (i >= 1) {
+        int j = 1;
+        while (j <= i) {
+            cout << "*";
+            j++;
+        }
+        cout << endl;
+        i--;
+    }
+
+ /* Dont change anything below. If changed click on reset. */
+
 int main()
 {
     int n;
